@@ -2,7 +2,7 @@ name: Build iOS → TestFlight
 
 on:
   push:
-    branches: [main]
+    branches: [master, main]
   workflow_dispatch:
 
 jobs:
